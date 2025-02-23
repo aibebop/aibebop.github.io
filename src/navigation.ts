@@ -1,4 +1,6 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { 
+  // getPermalink, 
+  getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -85,13 +87,15 @@ export const headerData = {
     //     },
     //   ],
     // },
-    // {
-    //   text: 'Blog',
-    //   links: [
-    //     {
-    //       text: 'Blog List',
-    //       href: getBlogPermalink(),
-    //     },
+    {
+      text: 'Blog',
+      links: [
+        {
+          text: 'Blog List',
+          href: getBlogPermalink(),
+        },
+      ]
+    }
     //     {
     //       text: 'Article',
     //       href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
