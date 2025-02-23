@@ -87,4 +87,7 @@ export default defineConfig({
       },
     },
   },
+
+  site: 'https://aibebop.github.io',
+  base: '/aibebop.co'
 });
