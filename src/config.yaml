@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: aibebop
-    template: '%s — aibebop'
+    template: 'aibebop | %s'
   description: "\U0001F680 ."
   robots:
     index: true
